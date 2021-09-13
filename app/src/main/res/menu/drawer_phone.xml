@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single" android:id="@+id/group1">
+
+        <item
+            android:title="Call Blacklist"
+            android:id="@+id/phoneblacklist"
+            android:icon="@drawable/callblocked">
+
+        </item>
+
+        <item
+            android:title="SMS Blacklist"
+            android:id="@+id/smsblacklist"
+            android:icon="@drawable/smsblocked">
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group2">
+
+        <item
+            android:title="News Feed"
+            android:id="@+id/spam_mails"
+            android:icon="@drawable/rss_feed">
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group3">
+    <item
+            android:title="Manage Call List"
+            android:id="@+id/phonelist"
+            android:icon="@drawable/phonelist">
+
+        </item>
+
+    <item
+        android:title="Manage SMS List"
+        android:id="@+id/smslist"
+        android:icon="@drawable/smslist">
+    </item>
+    </group>
+
+
+    <group android:checkableBehavior="single" android:id="@+id/group4">
+
+        <item
+            android:title="Times of India"
+            android:id="@+id/bitswebsite"
+            android:icon="@drawable/ic_language_white_48dp">
+        </item>
+
+
+    </group>
+
+        <group android:checkableBehavior="single" android:id="@+id/group5">
+
+        <item
+            android:title="About"
+            android:id="@+id/about"
+            android:icon="@drawable/about">
+        </item>
+
+    </group>
+
+</menu>
